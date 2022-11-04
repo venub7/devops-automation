@@ -108,3 +108,84 @@ pwd
 echo %JAVA_HOME%
 echo JAVA_HOME
 echo $JAVA_HOME
+mvn -version
+service status jenkins
+systemctl status jenkins
+clear
+cd /opt/
+las
+ls
+cd maven/
+ls
+cd
+ls
+cd j
+cd helloworld/
+ls
+cat pom.xml 
+cd
+mvn clean package
+cd helloworld/
+mvn clean package
+ls
+cd webapp/
+ls
+cat pom.xml 
+cd
+ls
+cd helloworld/
+ls
+cd webapp/
+ls
+cd target/
+ls
+ls -la
+cd
+cd helloworld/
+mvn deploy
+mvn clean install
+mvn compile
+mvn test
+mvn validate
+mvn verify
+mvn install -Dskiptestds=true
+mvn site:site
+mvn test site:site
+mvn sonar:sonar
+git init
+git add pipeline {
+    agent any
+    stages {
+        stage('Build') {
+            agent {
+                docker {
+                    image 'gradle:6.7-jdk11'
+                    // Run the container on the node specified at the
+                    // top-level of the Pipeline, in the same workspace,
+                    // rather than on a new node entirely:
+                    reuseNode true
+                }
+            }
+            steps {
+                sh 'gradle --version'
+            }
+        }
+    }
+}git add .
+git add
+git config --global user.name eeresh.n1810@gmail.com
+git config --global user.email eeresh.n1810@gmail.com
+git commit -m "first commit"
+git add.
+git add .
+ls
+rm -rf helloworld/
+ls
+git branch -M main
+git remote add origin https://github.com/venub7/devops-automation.git
+git push -u origin main
+git status
+git commit -m "second commit"
+git branch -M main
+git remote add origin https://github.com/venub7/devops-automation.git
+git push -u origin main
