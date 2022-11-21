@@ -189,3 +189,51 @@ git commit -m "second commit"
 git branch -M main
 git remote add origin https://github.com/venub7/devops-automation.git
 git push -u origin main
+mvn -version
+uname -a
+hostname
+mvn install -dskiptest=true
+mvn install -DSkipTests=true
+1
+mvn clean install
+ls
+cd /root/
+ls
+cd /opt/
+ls
+cd maven/
+ls
+ls -lrt
+cd b
+cat bin/
+cd bin/
+ls
+ls -la
+cat mvn
+cat mvn.cmd 
+mvn -f path/to/pom.xml <goals> ...
+cd
+cd /opt/
+cdm
+cd maven/
+ls
+ls -la
+cd lib/
+ls
+cd ..
+ls
+cd conf/
+ls
+cat settings.xml 
+cd
+ls
+git clone https://github.com/venub7/helloworld.git
+ls
+cd helloworld/
+ls
+ls -la
+mvn clean install
+mvn install -DSkipTests=true
+mvn install -Dmaven.test.skip=True
+mvn site:site
+systemctl status jenkins

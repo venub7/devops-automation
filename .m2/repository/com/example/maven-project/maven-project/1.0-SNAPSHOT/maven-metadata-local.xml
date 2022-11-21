@@ -3,7 +3,7 @@
   <groupId>com.example.maven-project</groupId>
   <artifactId>maven-project</artifactId>
   <versioning>
-    <lastUpdated>20221028053302</lastUpdated>
+    <lastUpdated>20221109070343</lastUpdated>
     <snapshot>
       <localCopy>true</localCopy>
     </snapshot>
@@ -11,7 +11,7 @@
       <snapshotVersion>
         <extension>pom</extension>
         <value>1.0-SNAPSHOT</value>
-        <updated>20221028053302</updated>
+        <updated>20221109070343</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
