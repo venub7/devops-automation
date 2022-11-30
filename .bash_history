@@ -189,3 +189,24 @@ git commit -m "second commit"
 git branch -M main
 git remote add origin https://github.com/venub7/devops-automation.git
 git push -u origin main
+yum update -y
+systemctl status jenkins
+clear
+git -version
+git --version
+git status
+git add .
+git status
+git commit -m modified file
+git commit -m modified
+git push 
+git branch
+git check main
+git checkout main
+git branh
+git branch
+git push 
+git push origin main
+git status
+git add .
+git add 
