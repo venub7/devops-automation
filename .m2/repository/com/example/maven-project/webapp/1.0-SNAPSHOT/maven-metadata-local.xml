@@ -3,7 +3,7 @@
   <groupId>com.example.maven-project</groupId>
   <artifactId>webapp</artifactId>
   <versioning>
-    <lastUpdated>20221109070343</lastUpdated>
+    <lastUpdated>20221130131025</lastUpdated>
     <snapshot>
       <localCopy>true</localCopy>
     </snapshot>
@@ -11,12 +11,12 @@
       <snapshotVersion>
         <extension>war</extension>
         <value>1.0-SNAPSHOT</value>
-        <updated>20221109070343</updated>
+        <updated>20221130131025</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
         <value>1.0-SNAPSHOT</value>
-        <updated>20221109070343</updated>
+        <updated>20221130131025</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
