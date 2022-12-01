@@ -237,3 +237,58 @@ mvn install -DSkipTests=true
 mvn install -Dmaven.test.skip=True
 mvn site:site
 systemctl status jenkins
+clear
+git --version
+git status
+git add .
+git status
+git add .
+git status
+git commit -m "updated the files"
+git push origin -u master
+git push origin -u main
+git diff
+git branch
+git checkout test1 
+git branch
+git status
+git add .
+git status
+vim file.txt
+git status
+git add file.txt 
+git status
+git add .
+git status
+git commit -m "created the file"
+git push origin -u test1
+git log
+git log --summary
+clear
+git log --oneline
+git reflog
+ls
+mvn --version
+mvn clean install
+mvn clean install package
+cd helloworld/
+;s
+ls
+mvn clean package install
+mvn clean install package
+ls
+cd webapp/
+ls
+cd target/
+ls
+ls -lrt
+cd
+systemctl status jenkins
+git config --list
+git rebase
+git status
+git add .
+git status
+git commit -m "message"
+git branch
+git push origin -u test1
