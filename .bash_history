@@ -210,3 +210,49 @@ git push origin main
 git status
 git add .
 git add 
+clear
+git --version
+git branch
+git checkout main 
+git status
+git add .bash_history 
+git status
+git commit -m test
+git push origin -u test1 
+git checkout m
+git checkout main 
+git log --summary
+git status
+git rebase main 
+clear
+git pull
+git log
+git diff HEAD
+git log --online
+git log --oneline
+git fetch
+git status
+git fetch main
+git fetch origin/main
+mvn deploy
+ls
+cd helloworld/
+ls
+mvn deploy
+cd
+clear
+mvn validate
+cd helloworld/
+mvn validate
+mvn compile
+mvn verify
+mvn test
+mvn site:site
+mvn --version
+ls
+cd helloworld/
+ll
+mvn sonar:sonar   -Dsonar.projectKey=maven-project   -Dsonar.host.url=http://43.204.142.43:9000   -Dsonar.login=57acca2408126a89a411ef0d5a6ce1b504d9be13
+mvn clean package sonar:sonar   -Dsonar.projectKey=maven-project   -Dsonar.host.url=http://43.204.142.43:9000   -Dsonar.login=57acca2408126a89a411ef0d5a6ce1b504d9be13
+clr
+clear
